@@ -1,0 +1,89 @@
+body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: whitesmoke;
+        margin: 0;
+        padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            width: 280px;
+            padding: 15px; 
+        }
+
+        .product:hover {
+            transform: scale(1.03);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        .product h2 {
+            font-size: 20px;
+            margin: 10px 0 5px;
+            color: #333;
+        }
+
+        .product p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .price {
+            font-size: 16px;
+            font-weight: bold;
+            color: #28a745;
+            margin: 10px 0;
+        }
+
+        .buy-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .buy-button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+        }
+/*რაც არ გვისწავლია
+/_____________________________________________________________________________________________________________________________________________________
+/*margin-არის სივრცე ელემენტის გარშემო
+/*padding-არის სივრცე ელემენტის შინაარს შორის
+/*transform-არის თვისება შევატრიალოთ,მივცეთ დახრილობა ან ვთარგმნოთ ელემენტი
